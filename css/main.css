@@ -1,0 +1,36 @@
+/* This prevents fixed navbar from overlapping body content */
+body {
+  padding-top: 70px;
+}
+
+/* This prevents fixed navbar from overlapping body content on small screens */
+@media screen and (max-width: 768px) {
+    body { padding-top: 300px; }
+}
+
+.jumbotron {
+  /* background-image: url(../img/pizitz.jpg); */
+  background-color: LightSteelBlue;
+}
+
+.container {
+
+}
+
+.jumbotron h1 {
+text-shadow: 2px 2px 4px #efefef;
+}
+
+.jumbotron h2 {
+
+}
+
+.panel-heading {
+  font-weight: 600;
+}
+
+.panel-body {
+  line-height: 30px;
+  text-indent: 40px;
+
+}
